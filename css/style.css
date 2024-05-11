@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 1190px;
+  height: 260px;
+}
+
+.right {
+  float: left;
+  width: 1000px;
+  height: 260px;
+}
+
+img {
+  float: left;
+}
+
+ul {
+  float: left;
+}
+
+.tab_list {
+  height: 38px;
+  width: 1000px;
+  border-bottom: 1px solid #0893ff;
+}
+
+.tab_list li {
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  background-color: white;
+}
+
+.listyle {
+  color: white;
+  background-color: #0893ff !important;
+}
+
+li {
+  float: left;
+  list-style: none;
+  width: 200px;
+  height: 222px;
+}
+
+.tab_con li img {
+  margin: 15px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+.tab_con li .names {
+  display: inline-block;
+  width: 140px;
+  height: 18px;
+  margin: 20px 0 0 35px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab_con li .price {
+  width: 200px;
+  margin-left: 65px;
+  font-size: 16px;
+  color: red;
+}
